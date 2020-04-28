@@ -175,7 +175,7 @@ public abstract class BaseCipher implements EncryptionProvider, DecryptionProvid
                 out.write(buffer, 0, length);
             }
         } catch (IOException e) {
-            throw new SecureVaultException("IOError when reading the input" +
+            throw new SecureVaultException("s" +
                     " stream for cipher ", e, log);
         } finally {
             try {
